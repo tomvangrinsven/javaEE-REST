@@ -1,0 +1,7 @@
+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°Í«¦8…®”¹,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ûÕ‚¡8…®”¹,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨°óÛ8…®”¹,
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÛÌÖÃúÿÿÿÿ8…®”¹,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÁ‹8…®”¹,
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8…®”¹,
