@@ -70,7 +70,7 @@ public class SubscriptionDAO implements ISubscriptionDAO {
                         ));
             }
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
         }
         return resultList;
     }
@@ -113,13 +113,13 @@ public class SubscriptionDAO implements ISubscriptionDAO {
                 );
             }
         } catch (SQLException exception){
-            System.out.println(exception.getMessage());
+            logger.log(Level.SEVERE, exception.getMessage());
         }
         return sub;
     }
 
     @Override
-    public void addSubscription(String token, int id) {
+    public boolean addSubscription(String token, int id) {
 
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
@@ -130,12 +130,14 @@ public class SubscriptionDAO implements ISubscriptionDAO {
             statement.setInt(2, id);
             statement.execute();
             } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
+            return false;
         }
+        return true;
     }
 
     @Override
-    public void doubleSubscription(String token, int id) {
+    public boolean doubleSubscription(String token, int id) {
 
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
@@ -145,15 +147,14 @@ public class SubscriptionDAO implements ISubscriptionDAO {
             statement.setString(2, token);
             statement.execute();
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
+            return false;
         }
-
-
-
+        return true;
     }
 
     @Override
-    public void cancelSubscription(String token, int id) {
+    public boolean cancelSubscription(String token, int id) {
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
                 PreparedStatement statement = connection.prepareStatement("UPDATE Subscription SET STATUS = 'opgezegd' WHERE ID = ? AND Subscriber = (SELECT t.ID from token t where t.TOKEN = ?)")
@@ -162,9 +163,10 @@ public class SubscriptionDAO implements ISubscriptionDAO {
             statement.setString(2, token);
             statement.execute();
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
+            return false;
         }
-
+        return true;
     }
 
     @Override
@@ -177,11 +179,13 @@ public class SubscriptionDAO implements ISubscriptionDAO {
 
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
-                PreparedStatement statement = connection.prepareStatement("UPDATE Subscription SET STATUS = 'opgezegd' WHERE ENDDATE IS NOT NULL AND STATUS != 'opgezegd' AND DATEDIFF(NOW(), ENDDATE) > 0 )");
+                PreparedStatement statement = connection.prepareStatement("UPDATE Subscription SET STATUS = 'opgezegd' " +
+                        "WHERE ENDDATE IS NOT NULL AND STATUS != 'opgezegd' " +
+                        "AND DATEDIFF(NOW(), ENDDATE) > 0 )");
         ){
             statement.execute();
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
         }
     }
 
@@ -189,11 +193,12 @@ public class SubscriptionDAO implements ISubscriptionDAO {
 
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
-                PreparedStatement statement = connection.prepareStatement("UPDATE Subscription SET STATUS = 'actief' WHERE STATUS = 'proef' AND DATEDIFF(NOW(), STARTDATE) >= 31 )")
+                PreparedStatement statement = connection.prepareStatement("UPDATE Subscription SET STATUS = 'actief' " +
+                        "WHERE STATUS = 'proef' AND DATEDIFF(NOW(), STARTDATE) >= 31 )")
         ){
             statement.execute();
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
         }
     }
 

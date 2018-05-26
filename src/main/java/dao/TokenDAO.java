@@ -30,7 +30,7 @@ public class TokenDAO implements ITokenDAO {
     }
 
     @Override
-    public void insertOrupdateToken(String token, int subscriberId) {
+    public boolean insertOrupdateToken(String token, int subscriberId) {
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
                 PreparedStatement statement = connection.prepareStatement("INSERT INTO token VALUES(?, ?, NOW() +  " +
@@ -41,22 +41,42 @@ public class TokenDAO implements ITokenDAO {
             statement.setString(3, token);
             statement.execute();
         } catch (SQLException exception){
-            System.out.println(exception.getMessage());
+            logger.log(Level.SEVERE, exception.getMessage());
+            return false;
         }
+        return true;
     }
 
     @Override
-    public void deleteExpiredTokens() {
+    public boolean deleteExpiredTokens() {
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
                 PreparedStatement statement = connection.prepareStatement("DELETE FROM token WHERE TIMEDIFF(EXPIRES, NOW()) < 0")
         ){
             statement.execute();
         } catch (SQLException exception){
-            System.out.println(exception.getMessage());
-            System.out.println(exception.getSQLState());
-            exception.printStackTrace();
+            logger.log(Level.SEVERE, exception.getMessage());
+            return false;
         }
+        return true;
+    }
 
+    @Override
+    public int getUserIdByToken(String token) {
+        int id = -1;
+        try(
+                Connection connection = DriverManager.getConnection(prop.connectionString());
+                PreparedStatement statement = connection.prepareStatement("SELECT t.ID FROM token t WHERE t.TOKEN = ?")
+                ){
+            statement.setString(1, token);
+            ResultSet result = statement.executeQuery();
+            while(result.next()){
+                id = result.getInt("ID");
+            }
+
+        } catch(SQLException exception){
+            logger.log(Level.SEVERE, exception.getMessage());
+        }
+        return id;
     }
 }

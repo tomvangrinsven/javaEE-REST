@@ -52,7 +52,7 @@ public class ServicesDAO implements IServicesDAO {
                 ));
             }
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
         }
 
         return services;

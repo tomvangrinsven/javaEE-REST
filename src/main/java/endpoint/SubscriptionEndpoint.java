@@ -1,5 +1,6 @@
 package endpoint;
 
+import authorization.Authorization;
 import dao.interfaces.ISubscriptionDAO;
 import responses.ServiceResponse;
 import responses.SpecifiedSubscriptionOfUser;
@@ -19,36 +20,59 @@ public class SubscriptionEndpoint {
     @Inject
     private ISubscriptionDAO dao;
 
+    @Inject
+    private Authorization auth;
+
     @Path("")
     @GET
     public Response getSubscriptionsOfUser(@QueryParam("token") String token){
-        return Response.ok().entity(getAllSubscriptions(token)).build();
+        if (!auth.isAuthorized(token)){
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            return Response.ok().entity(getAllSubscriptions(token)).build();
+        }
     }
 
     @Path("")
     @POST
     public Response addSubscription(@QueryParam("token") String token, ServiceResponse service){
-        dao.addSubscription(token, service.getId());
-        return Response.ok().entity(getAllSubscriptions(token)).build();
+        if (!auth.isAuthorized(token)){
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            dao.addSubscription(token, service.getId());
+            return Response.ok().entity(getAllSubscriptions(token)).build();
+        }
     }
 
     @Path("/{id}")
     @GET
     public Response getSubscriptionsById(@PathParam("id") int id, @QueryParam("token") String token){
-        return Response.ok().entity(getSpecificSubscription(id, token)).build();
-    }
+        if (!auth.isAuthorized(token)){
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            return Response.ok().entity(getSpecificSubscription(id, token)).build();
+            }
+        }
 
     @Path("/{id}")
     @POST
-    public Response doubleSubscriptionById(@PathParam("id") int id, @QueryParam("token") String token){
-        return Response.ok().entity(getSpecificSubscription(id, token)).build();
+    public Response doubleSubscriptionById(@PathParam("id") int id, @QueryParam("token") String token) {
+        if (!auth.isAuthorized(token)) {
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            return Response.ok().entity(getSpecificSubscription(id, token)).build();
+        }
     }
 
     @Path("/{id}")
     @DELETE
-    public Response cancelSubscriptionById(@PathParam("id") int id, @QueryParam("token") String token){
-        dao.cancelSubscription(token, id);
-        return Response.ok().entity(getSpecificSubscription(id, token)).build();
+    public Response cancelSubscriptionById(@PathParam("id") int id, @QueryParam("token") String token) {
+        if (!auth.isAuthorized(token)) {
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            dao.cancelSubscription(token, id);
+            return Response.ok().entity(getSpecificSubscription(id, token)).build();
+        }
     }
 
 

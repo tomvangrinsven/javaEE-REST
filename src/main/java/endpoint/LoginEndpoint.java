@@ -26,12 +26,10 @@ public class LoginEndpoint {
     public Response login(UserLogin userLogin)
     {
         User user = dao.getUser(userLogin.getUser(), userLogin.getPassword());
-
-
         if (user == null)
         {
             return Response
-                    .status(401)
+                    .status(Response.Status.UNAUTHORIZED)
                     .build();
         }
 

@@ -1,5 +1,6 @@
 package endpoint;
 
+import authorization.Authorization;
 import dao.interfaces.ISubscriberDAO;
 import responses.SubscriptionId;
 
@@ -15,16 +16,27 @@ public class SubscribersEndpoint {
     @Inject
     private ISubscriberDAO dao;
 
+    @Inject
+    private Authorization auth;
+
     @Path("")
     @GET
     public Response getOtherSubscribers(@QueryParam("token") String token){
-        return Response.ok().entity(dao.getAllSubscribers(token)).build();
+        if (!auth.isAuthorized(token)){
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else{
+            return Response.ok().entity(dao.getAllSubscribers(token)).build();
+        }
     }
 
     @Path("/{id}")
     @POST
     public Response shareSubscriptionById(@PathParam("id") int id, SubscriptionId subId, @QueryParam("token") String token){
-        dao.shareSubscription(token, id, subId.getId());
-        return Response.ok().build();
+        if (!auth.isAuthorized(token)){
+            return Response.status(Response.Status.FORBIDDEN).build();
+        } else {
+            dao.shareSubscription(token, id, subId.getId());
+            return Response.ok().build();
+        }
     }
 }

@@ -57,7 +57,7 @@ public class SubscriberDAO implements ISubscriberDAO {
                 user = new User(token, sub);
             }
         } catch (SQLException exception){
-            throw new RuntimeException("error");
+            logger.log(Level.SEVERE, exception.getMessage());
         }
         return user;
     }
@@ -81,13 +81,13 @@ public class SubscriberDAO implements ISubscriberDAO {
                 ));
             }
         } catch (SQLException exception){
-            System.out.println(exception.getMessage());
+            logger.log(Level.SEVERE, exception.getMessage());
         }
         return subs;
     }
 
     @Override
-    public void shareSubscription(String token, int subscriberId, int subscriptionId) {
+    public boolean shareSubscription(String token, int subscriberId, int subscriptionId) {
 
         try(
                 Connection connection = DriverManager.getConnection(prop.connectionString());
@@ -101,8 +101,8 @@ public class SubscriberDAO implements ISubscriberDAO {
             System.out.println(subscriptionId);
             statement.execute();
         } catch (SQLException exception){
-            System.out.println(exception.getMessage());
+            logger.log(Level.SEVERE, exception.getMessage());
         }
-
+        return true;
     }
 }
