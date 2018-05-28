@@ -1,10 +1,8 @@
 package endpoints;
 
-import authorization.Authorization;
-import dao.interfaces.IServicesDAO;
-import domain.Service;
-import endpoint.ServicesEndpoint;
-import org.junit.Before;
+import nl.tomvangrinsven.vodagone.authorization.Authorization;
+import nl.tomvangrinsven.vodagone.dao.IServicesDAO;
+import nl.tomvangrinsven.vodagone.endpoint.ServicesEndpoint;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -12,7 +10,6 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import javax.ws.rs.core.Response;
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;

@@ -6,28 +6,43 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/domain/Subscription.java" line="8" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Subscription.java" line="8" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb9673d-c49a-4551-9872-d36ffc46c729" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/IServicesDAO.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ServicesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/ServicesDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SubscriberDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/SubscriberDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/TokenDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/TokenDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriberDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriberDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriptionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriptionDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ITokenDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/interfaces/ITokenDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/LoginEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/endpoint/LoginEndpoint.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/SubscribersEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/endpoint/SubscribersEndpoint.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/SubscriptionEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/endpoint/SubscriptionEndpoint.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServicesDAOTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SubscribersTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SubscriptionTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/authorization/Authorization.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/authorization/Authorization.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DatabaseProperties.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/DatabaseProperties.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ServicesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/ServicesDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SubscriberDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriberDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriptionDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/TokenDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/TokenDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/IServicesDAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriberDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ISubscriberDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriptionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ISubscriptionDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/interfaces/ITokenDAO.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ITokenDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Service.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Service.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Subscriber.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Subscriber.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Subscription.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Subscription.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Token.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Token.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/LoginEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/LoginEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/ServicesEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/SubscribersEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscribersEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/endpoint/SubscriptionEndpoint.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscriptionEndpoint.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/AuthorizedUser.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/AuthorizedUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/ServiceResponse.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/ServiceResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/SpecifiedSubscriptionOfUser.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SpecifiedSubscriptionOfUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/SubscriptionId.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionId.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/SubscriptionOfUser.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionOfUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/SubscriptionsOfUser.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionsOfUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/responses/UserLogin.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/UserLogin.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java" afterPath="$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java" afterPath="$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java" afterPath="$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java" afterPath="$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java" />
       <change beforePath="$PROJECT_DIR$/vodagone.iml" afterPath="$PROJECT_DIR$/vodagone.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,47 +59,104 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TokenDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/TokenDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/TokenDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="35" selection-end-column="109" />
               <folding>
-                <marker date="1527329441319" expanded="true" signature="984:1137" ph="INSERT INTO token... " />
-                <marker date="1527329441319" expanded="true" signature="1724:1776" ph="DELETE FROM " />
-                <marker date="1527329441319" expanded="true" signature="2256:2298" ph="SELECT t.ID token" />
+                <element signature="imports" expanded="true" />
+                <marker date="1527508333633" expanded="true" signature="1006:1159" ph="INSERT INTO token... " />
+                <marker date="1527508333633" expanded="true" signature="1746:1798" ph="DELETE FROM " />
+                <marker date="1527508333633" expanded="true" signature="2278:2320" ph="SELECT t.ID token" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubscriberEndpointTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java">
+      <file leaf-file-name="ServicesDAOWithH2Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/ServicesDAOWithH2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h2database.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/h2database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubscriberDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriberDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <marker date="1527512281478" expanded="true" signature="1138:1392" ph="SELECT ID, N... subscriber" />
+                <marker date="1527512281478" expanded="true" signature="1192:1237" ph="SELECT t.TOK... token" />
+                <marker date="1527512281478" expanded="true" signature="1336:1391" ph="SELECT ID FR... user" />
+                <marker date="1527512281478" expanded="true" signature="2372:2453" ph="SELECT * FRO... SUBSCRIBER" />
+                <marker date="1527512281478" expanded="true" signature="2410:2452" ph="SELECT t.ID token" />
+                <marker date="1527512281478" expanded="true" signature="3252:3390" ph="INSERT INTO sharedsubscription... " />
+                <marker date="1527512281478" expanded="true" signature="3252:3456" ph="INSERT INTO sharedsubscription... " />
+                <marker date="1527512281478" expanded="true" signature="3343:3390" ph="SELECT s.ID,... subscription" />
+                <marker date="1527512281478" expanded="true" signature="3413:3455" ph="SELECT t.ID token" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubscriptionDAOWithH2Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/SubscriptionDAOWithH2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISubscriberDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ISubscriberDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginEndpointTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java">
+      <file leaf-file-name="SubscriberDAOWithH2Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/SubscriberDAOWithH2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicesEndpointTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="390">
+              <caret line="62" column="67" lean-forward="false" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubscriptionEndpointTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java">
+      <file leaf-file-name="TokenDAOWithH2Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/TokenDAOWithH2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-263">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="291">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,69 +176,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/LoginEndpoint.java">
+      <file leaf-file-name="testDB_create.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testDB_create.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicesEndpoint.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="607">
+              <caret line="173" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SubscriptionDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriptionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="174" column="40" lean-forward="false" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <marker date="1527329441272" expanded="true" signature="1126:1189" ph="select s.id " />
-                <marker date="1527329441272" expanded="true" signature="1126:1190" ph="select s.id " />
-                <marker date="1527329441272" expanded="true" signature="1126:1518" ph="select s.id " />
-                <marker date="1527329441272" expanded="true" signature="1126:1519" ph="select s.id " />
-                <marker date="1527329441272" expanded="true" signature="1126:2002" ph="select s.id subscription" />
-                <marker date="1527329441272" expanded="true" signature="1221:1287" ph="select s.sub... " />
-                <marker date="1527329441272" expanded="true" signature="1244:1285" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="1244:1286" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="1397:1471" ph="SELECT p.PRI... prices" />
-                <marker date="1527329441272" expanded="true" signature="1521:1646" ph="select d.sha... " />
-                <marker date="1527329441272" expanded="true" signature="1572:1645" ph="select count... sharedsubscription" />
-                <marker date="1527329441272" expanded="true" signature="1875:1916" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="1875:1917" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="1959:2000" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="1959:2001" ph="select t.id token" />
-                <marker date="1527329441272" expanded="true" signature="3470:4482" ph="SELECT s.ID subscription" />
-                <marker date="1527329441272" expanded="true" signature="3573:3639" ph="SELECT s.SUB... " />
-                <marker date="1527329441272" expanded="true" signature="3596:3637" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="3596:3638" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="3731:3843" ph="SELECT p.pri... prices" />
-                <marker date="1527329441272" expanded="true" signature="3864:3998" ph="SELECT se.sh... " />
-                <marker date="1527329441272" expanded="true" signature="3887:3997" ph="SELECT COUNT... sharedsubscription" />
-                <marker date="1527329441272" expanded="true" signature="4164:4205" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="4164:4206" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="4265:4480" ph="SELECT s.sub... subscription" />
-                <marker date="1527329441272" expanded="true" signature="4322:4479" ph="SELECT ss.su... sharedsubscription" />
-                <marker date="1527329441272" expanded="true" signature="4436:4477" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="4436:4478" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="5944:6062" ph="INSERT INTO Subscription... " />
-                <marker date="1527329441272" expanded="true" signature="5944:6144" ph="INSERT INTO Subscription... " />
-                <marker date="1527329441272" expanded="true" signature="6065:6107" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="6702:6815" ph="UPDATE Subscription... " />
-                <marker date="1527329441272" expanded="true" signature="6772:6814" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="7368:7486" ph="UPDATE Subscription... " />
-                <marker date="1527329441272" expanded="true" signature="7443:7485" ph="SELECT t.ID token" />
-                <marker date="1527329441272" expanded="true" signature="8155:8342" ph="UPDATE Subscription... " />
-                <marker date="1527329441272" expanded="true" signature="8741:8873" ph="UPDATE Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="1298:1361" ph="select s.id " />
+                <marker date="1527512104582" expanded="true" signature="1298:1362" ph="select s.id " />
+                <marker date="1527512104582" expanded="true" signature="1298:1690" ph="select s.id " />
+                <marker date="1527512104582" expanded="true" signature="1298:1691" ph="select s.id " />
+                <marker date="1527512104582" expanded="true" signature="1298:2174" ph="select s.id subscription" />
+                <marker date="1527512104582" expanded="true" signature="1393:1459" ph="select s.sub... " />
+                <marker date="1527512104582" expanded="true" signature="1416:1457" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="1416:1458" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="1569:1643" ph="SELECT p.PRI... prices" />
+                <marker date="1527512104582" expanded="true" signature="1693:1818" ph="select d.sha... " />
+                <marker date="1527512104582" expanded="true" signature="1744:1817" ph="select count... sharedsubscription" />
+                <marker date="1527512104582" expanded="true" signature="2047:2088" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="2047:2089" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="2131:2172" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="2131:2173" ph="select t.id token" />
+                <marker date="1527512104582" expanded="true" signature="3642:4654" ph="SELECT s.ID subscription" />
+                <marker date="1527512104582" expanded="true" signature="3745:3811" ph="SELECT s.SUB... " />
+                <marker date="1527512104582" expanded="true" signature="3768:3809" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="3768:3810" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="3903:4015" ph="SELECT p.pri... prices" />
+                <marker date="1527512104582" expanded="true" signature="4036:4170" ph="SELECT se.sh... " />
+                <marker date="1527512104582" expanded="true" signature="4059:4169" ph="SELECT COUNT... sharedsubscription" />
+                <marker date="1527512104582" expanded="true" signature="4336:4377" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="4336:4378" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="4437:4652" ph="SELECT s.sub... subscription" />
+                <marker date="1527512104582" expanded="true" signature="4494:4651" ph="SELECT ss.su... sharedsubscription" />
+                <marker date="1527512104582" expanded="true" signature="4608:4649" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="4608:4650" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="6116:6234" ph="INSERT INTO Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="6116:6316" ph="INSERT INTO Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="6237:6279" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="6874:6987" ph="UPDATE Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="6944:6986" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="7540:7658" ph="UPDATE Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="7615:7657" ph="SELECT t.ID token" />
+                <marker date="1527512104582" expanded="true" signature="8327:8514" ph="UPDATE Subscription... " />
+                <marker date="1527512104582" expanded="true" signature="8913:9045" ph="UPDATE Subscription... " />
               </folding>
             </state>
           </provider>
@@ -193,28 +255,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domain/Token.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/DatabaseProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/testuser.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/interfaces/IServicesDAO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ServicesDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/responses/SubscriptionId.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SubscribersTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/responses/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/responses/ServiceResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/responses/SubscriptionOfUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SubscriptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Subscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Subscription.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/responses/AuthorizedUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/responses/SubscriptionsOfUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/responses/SpecifiedSubscriptionOfUser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/endpoints/LoginEndpoint.java" />
         <option value="$PROJECT_DIR$/src/test/java/endpoints/SubTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ServicesDAO.java" />
@@ -231,10 +276,36 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/TokenDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ITokenDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/authorization/Authorization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/LoginEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/ServicesEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscribersEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscriptionEndpoint.java" />
         <option value="$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/IConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/DatabaseProperties.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/H2DatabaseProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/TokenDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/IDatabaseProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/ServicesDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/h2database.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/db.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/DBConnectionFactoryMock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/H2Construction/IConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithMockito/TokenDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/ServicesDAOWithH2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriptionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriberDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testDB_create.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/SubscriptionDAOWithH2Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/SubscriberDAOWithH2Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/daoWithH2/TokenDAOWithH2Test.java" />
       </list>
     </option>
   </component>
@@ -258,8 +329,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -281,6 +352,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -314,6 +387,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaEE-REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
               <item name="authorization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,6 +404,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,6 +413,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaEE-REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
               <item name="endpoint" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,7 +431,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vodagone" type="462c0819:PsiDirectoryNode" />
               <item name="responses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaEE-REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
@@ -352,6 +453,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaEE-REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="daoWithH2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
@@ -361,12 +470,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="endpoints" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deavodagonefinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaEE-REST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,6 +489,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\john\Documents\GitHub\javaEE-REST\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in vodagone">
+  <component name="RunManager" selected="TomEE Server.Unnamed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -438,19 +558,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoginEndpointTest.testCorrectLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriberDAOWithH2Test.getAllSubscribers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="endpoints.*" />
+          <option name="PATTERN" value="daoWithH2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="vodagone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="endpoints" />
-      <option name="MAIN_CLASS_NAME" value="endpoints.LoginEndpointTest" />
-      <option name="METHOD_NAME" value="testCorrectLogin" />
+      <option name="PACKAGE_NAME" value="daoWithH2" />
+      <option name="MAIN_CLASS_NAME" value="daoWithH2.SubscriberDAOWithH2Test" />
+      <option name="METHOD_NAME" value="getAllSubscribers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -463,19 +583,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoginEndpointTest.testReturnUserWithToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriberDAOWithH2Test.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="endpoints.*" />
+          <option name="PATTERN" value="daoWithH2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="vodagone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="endpoints" />
-      <option name="MAIN_CLASS_NAME" value="endpoints.LoginEndpointTest" />
-      <option name="METHOD_NAME" value="testReturnUserWithToken" />
+      <option name="PACKAGE_NAME" value="daoWithH2" />
+      <option name="MAIN_CLASS_NAME" value="daoWithH2.SubscriberDAOWithH2Test" />
+      <option name="METHOD_NAME" value="testGetAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -488,19 +608,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SubscriptionEndpointTest.testForbiddenResponseForSubscriptionsOfUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionDAOWithH2Test.doubleSubscription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="endpoints.*" />
+          <option name="PATTERN" value="daoWithH2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="vodagone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="endpoints" />
-      <option name="MAIN_CLASS_NAME" value="endpoints.SubscriptionEndpointTest" />
-      <option name="METHOD_NAME" value="testForbiddenResponseForSubscriptionsOfUser" />
+      <option name="PACKAGE_NAME" value="daoWithH2" />
+      <option name="MAIN_CLASS_NAME" value="daoWithH2.SubscriptionDAOWithH2Test" />
+      <option name="METHOD_NAME" value="doubleSubscription" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -513,19 +633,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SubscriptionEndpointTest.testResponseForSubscriptionsOfUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TokenDAOWithH2Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="endpoints.*" />
+          <option name="PATTERN" value="daoWithH2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="vodagone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="endpoints" />
-      <option name="MAIN_CLASS_NAME" value="endpoints.SubscriptionEndpointTest" />
-      <option name="METHOD_NAME" value="testResponseForSubscriptionsOfUser" />
+      <option name="PACKAGE_NAME" value="daoWithH2" />
+      <option name="MAIN_CLASS_NAME" value="daoWithH2.TokenDAOWithH2Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -966,19 +1086,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SubscriptionEndpointTest.testResponseForSubscriptionsOfUser" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SubscriptionEndpointTest.testForbiddenResponseForSubscriptionsOfUser" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginEndpointTest.testReturnUserWithToken" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginEndpointTest.testCorrectLogin" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.All in vodagone" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SubscriptionDAOWithH2Test.doubleSubscription" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SubscriberDAOWithH2Test.getAllSubscribers" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in vodagone" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SubscriberDAOWithH2Test.testGetAll" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TokenDAOWithH2Test.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in vodagone" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginEndpointTest.testReturnUserWithToken" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginEndpointTest.testCorrectLogin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SubscriptionEndpointTest.testForbiddenResponseForSubscriptionsOfUser" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SubscriptionEndpointTest.testResponseForSubscriptionsOfUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TokenDAOWithH2Test.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SubscriberDAOWithH2Test.testGetAll" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in vodagone" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SubscriberDAOWithH2Test.getAllSubscribers" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SubscriptionDAOWithH2Test.doubleSubscription" />
       </list>
     </recent_temporary>
   </component>
@@ -1004,47 +1124,48 @@
       <workItem from="1527166639498" duration="6049000" />
       <workItem from="1527176033734" duration="14520000" />
       <workItem from="1527190899074" duration="18591000" />
-      <workItem from="1527323903254" duration="9002000" />
+      <workItem from="1527323903254" duration="9584000" />
+      <workItem from="1527495218793" duration="14031000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_vodagone - 2018.05.26 at 13h 07m 57s.xml">
+    <history-entry file="All_in_vodagone - 2018.05.28 at 15h 25m 13s.xml">
       <configuration name="All in vodagone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_vodagone - 2018.05.26 at 13h 08m 12s.xml">
+    <history-entry file="All_in_vodagone - 2018.05.28 at 15h 25m 34s.xml">
       <configuration name="All in vodagone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testCorrectLogin - 2018.05.26 at 13h 03m 44s.xml">
-      <configuration name="LoginEndpointTest.testCorrectLogin" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_getAllSubscribers - 2018.05.28 at 15h 20m 35s.xml">
+      <configuration name="SubscriberDAOWithH2Test.getAllSubscribers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 03m 21s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_testGetAll - 2018.05.28 at 15h 28m 41s.xml">
+      <configuration name="SubscriberDAOWithH2Test.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 03m 38s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_testGetAll - 2018.05.28 at 15h 29m 02s.xml">
+      <configuration name="SubscriberDAOWithH2Test.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 04m 11s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_testGetAll - 2018.05.28 at 15h 29m 12s.xml">
+      <configuration name="SubscriberDAOWithH2Test.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 05m 03s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_testGetAll - 2018.05.28 at 15h 29m 23s.xml">
+      <configuration name="SubscriberDAOWithH2Test.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 05m 30s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="SubscriberDAOWithH2Test_testGetAll - 2018.05.28 at 15h 29m 31s.xml">
+      <configuration name="SubscriberDAOWithH2Test.testGetAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 05m 48s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="TokenDAOWithH2Test_test - 2018.05.28 at 15h 33m 10s.xml">
+      <configuration name="TokenDAOWithH2Test.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginEndpointTest_testReturnUserWithToken - 2018.05.26 at 13h 06m 20s.xml">
-      <configuration name="LoginEndpointTest.testReturnUserWithToken" configurationId="JUnit" />
+    <history-entry file="TokenDAOWithH2Test_test - 2018.05.28 at 15h 34m 32s.xml">
+      <configuration name="TokenDAOWithH2Test.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49336000" />
+    <option name="totallyTimeSpent" value="63949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1057,25 +1178,23 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46413043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4632272" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3621444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1085,7 +1204,9 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1096,7 +1217,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1105,87 +1226,204 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriptionDAO.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="156">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/LoginEndpoint.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="95" column="38" lean-forward="false" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/IServicesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SubscriberDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1527329441241" expanded="true" signature="1095:1349" ph="SELECT ID, N... subscriber" />
-            <marker date="1527329441241" expanded="true" signature="1149:1194" ph="SELECT t.TOK... token" />
-            <marker date="1527329441241" expanded="true" signature="1293:1348" ph="SELECT ID FR... user" />
-            <marker date="1527329441241" expanded="true" signature="2329:2410" ph="SELECT * FRO... SUBSCRIBER" />
-            <marker date="1527329441241" expanded="true" signature="3209:3347" ph="INSERT INTO sharedsubscription... " />
-            <marker date="1527329441241" expanded="true" signature="3209:3413" ph="INSERT INTO sharedsubscription... " />
-            <marker date="1527329441241" expanded="true" signature="3300:3347" ph="SELECT s.ID,... subscription" />
-            <marker date="1527329441241" expanded="true" signature="3370:3412" ph="SELECT t.ID token" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/TokenDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <marker date="1527329441319" expanded="true" signature="984:1137" ph="INSERT INTO token... " />
-            <marker date="1527329441319" expanded="true" signature="1724:1776" ph="DELETE FROM " />
-            <marker date="1527329441319" expanded="true" signature="2256:2298" ph="SELECT t.ID token" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/testuser.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="531" column="0" lean-forward="false" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="136">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/authorization/Authorization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscriptionEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="72" lean-forward="false" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/LoginEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/ServicesEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/endpoint/SubscribersEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/AuthorizedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/ServiceResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SpecifiedSubscriptionOfUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionOfUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/SubscriptionsOfUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/responses/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1194,202 +1432,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="77" lean-forward="false" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DatabaseProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vodagone.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ServicesDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SubscribersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/SubscriptionId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/ServiceResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/SubscriptionOfUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/SubscriptionsOfUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SubscriptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/AuthorizedUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/responses/SpecifiedSubscriptionOfUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="45" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/LoginEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="95" column="38" lean-forward="false" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/authorization/Authorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/SubscriptionEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="79" column="11" lean-forward="false" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/SubscribersEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriberDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/interfaces/IServicesDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ISubscriptionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -1397,183 +1444,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ServicesDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ITokenDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="61" />
-          <folding>
-            <marker date="1527327280525" expanded="true" signature="1045:1182" ph="SELECT s.ID,... " />
-            <marker date="1527327280525" expanded="true" signature="1045:1183" ph="SELECT s.ID,... " />
-            <marker date="1527327280525" expanded="true" signature="1045:1271" ph="SELECT s.ID,... SERVICE" />
-            <marker date="1527327280525" expanded="true" signature="1108:1182" ph="SELECT p.PRI... prices" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SubscriberDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="105" column="20" lean-forward="false" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
-          <folding>
-            <marker date="1527329441241" expanded="true" signature="1095:1349" ph="SELECT ID, N... subscriber" />
-            <marker date="1527329441241" expanded="true" signature="1149:1194" ph="SELECT t.TOK... token" />
-            <marker date="1527329441241" expanded="true" signature="1293:1348" ph="SELECT ID FR... user" />
-            <marker date="1527329441241" expanded="true" signature="2329:2410" ph="SELECT * FRO... SUBSCRIBER" />
-            <marker date="1527329441241" expanded="true" signature="3209:3347" ph="INSERT INTO sharedsubscription... " />
-            <marker date="1527329441241" expanded="true" signature="3209:3413" ph="INSERT INTO sharedsubscription... " />
-            <marker date="1527329441241" expanded="true" signature="3300:3347" ph="SELECT s.ID,... subscription" />
-            <marker date="1527329441241" expanded="true" signature="3370:3412" ph="SELECT t.ID token" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/interfaces/ITokenDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/IDatabaseProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/interfaces/ISubscriptionDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/ServicesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/SubscriptionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="174" column="40" lean-forward="false" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding>
-            <marker date="1527329441272" expanded="true" signature="1126:1189" ph="select s.id " />
-            <marker date="1527329441272" expanded="true" signature="1126:1190" ph="select s.id " />
-            <marker date="1527329441272" expanded="true" signature="1126:1518" ph="select s.id " />
-            <marker date="1527329441272" expanded="true" signature="1126:1519" ph="select s.id " />
-            <marker date="1527329441272" expanded="true" signature="1126:2002" ph="select s.id subscription" />
-            <marker date="1527329441272" expanded="true" signature="1221:1287" ph="select s.sub... " />
-            <marker date="1527329441272" expanded="true" signature="1244:1285" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="1244:1286" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="1397:1471" ph="SELECT p.PRI... prices" />
-            <marker date="1527329441272" expanded="true" signature="1521:1646" ph="select d.sha... " />
-            <marker date="1527329441272" expanded="true" signature="1572:1645" ph="select count... sharedsubscription" />
-            <marker date="1527329441272" expanded="true" signature="1875:1916" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="1875:1917" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="1959:2000" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="1959:2001" ph="select t.id token" />
-            <marker date="1527329441272" expanded="true" signature="3470:4482" ph="SELECT s.ID subscription" />
-            <marker date="1527329441272" expanded="true" signature="3573:3639" ph="SELECT s.SUB... " />
-            <marker date="1527329441272" expanded="true" signature="3596:3637" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="3596:3638" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="3731:3843" ph="SELECT p.pri... prices" />
-            <marker date="1527329441272" expanded="true" signature="3864:3998" ph="SELECT se.sh... " />
-            <marker date="1527329441272" expanded="true" signature="3887:3997" ph="SELECT COUNT... sharedsubscription" />
-            <marker date="1527329441272" expanded="true" signature="4164:4205" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="4164:4206" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="4265:4480" ph="SELECT s.sub... subscription" />
-            <marker date="1527329441272" expanded="true" signature="4322:4479" ph="SELECT ss.su... sharedsubscription" />
-            <marker date="1527329441272" expanded="true" signature="4436:4477" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="4436:4478" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="5944:6062" ph="INSERT INTO Subscription... " />
-            <marker date="1527329441272" expanded="true" signature="5944:6144" ph="INSERT INTO Subscription... " />
-            <marker date="1527329441272" expanded="true" signature="6065:6107" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="6702:6815" ph="UPDATE Subscription... " />
-            <marker date="1527329441272" expanded="true" signature="6772:6814" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="7368:7486" ph="UPDATE Subscription... " />
-            <marker date="1527329441272" expanded="true" signature="7443:7485" ph="SELECT t.ID token" />
-            <marker date="1527329441272" expanded="true" signature="8155:8342" ph="UPDATE Subscription... " />
-            <marker date="1527329441272" expanded="true" signature="8741:8873" ph="UPDATE Subscription... " />
+            <marker date="1527509084664" expanded="true" signature="1190:1327" ph="SELECT s.ID,... " />
+            <marker date="1527509084664" expanded="true" signature="1190:1328" ph="SELECT s.ID,... " />
+            <marker date="1527509084664" expanded="true" signature="1190:1416" ph="SELECT s.ID,... SERVICE" />
+            <marker date="1527509084664" expanded="true" signature="1253:1327" ph="SELECT p.PRI... prices" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/TokenDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <marker date="1527329441319" expanded="true" signature="984:1137" ph="INSERT INTO token... " />
-            <marker date="1527329441319" expanded="true" signature="1724:1776" ph="DELETE FROM " />
-            <marker date="1527329441319" expanded="true" signature="2256:2298" ph="SELECT t.ID token" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/h2database.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriptionEndpointTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/LoginEndpointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        <state relative-caret-position="1768">
+          <caret line="113" column="69" lean-forward="false" selection-start-line="113" selection-start-column="69" selection-end-line="113" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/ServicesEndpointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/endpoints/SubscriberEndpointTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/H2Construction/DBConnectionFactoryMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/LoginEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/H2Construction/H2DatabaseProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/H2Construction/IConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/endpoint/ServicesEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/DatabaseProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriptionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1527512104582" expanded="true" signature="1298:1361" ph="select s.id " />
+            <marker date="1527512104582" expanded="true" signature="1298:1362" ph="select s.id " />
+            <marker date="1527512104582" expanded="true" signature="1298:1690" ph="select s.id " />
+            <marker date="1527512104582" expanded="true" signature="1298:1691" ph="select s.id " />
+            <marker date="1527512104582" expanded="true" signature="1298:2174" ph="select s.id subscription" />
+            <marker date="1527512104582" expanded="true" signature="1393:1459" ph="select s.sub... " />
+            <marker date="1527512104582" expanded="true" signature="1416:1457" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="1416:1458" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="1569:1643" ph="SELECT p.PRI... prices" />
+            <marker date="1527512104582" expanded="true" signature="1693:1818" ph="select d.sha... " />
+            <marker date="1527512104582" expanded="true" signature="1744:1817" ph="select count... sharedsubscription" />
+            <marker date="1527512104582" expanded="true" signature="2047:2088" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="2047:2089" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="2131:2172" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="2131:2173" ph="select t.id token" />
+            <marker date="1527512104582" expanded="true" signature="3642:4654" ph="SELECT s.ID subscription" />
+            <marker date="1527512104582" expanded="true" signature="3745:3811" ph="SELECT s.SUB... " />
+            <marker date="1527512104582" expanded="true" signature="3768:3809" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="3768:3810" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="3903:4015" ph="SELECT p.pri... prices" />
+            <marker date="1527512104582" expanded="true" signature="4036:4170" ph="SELECT se.sh... " />
+            <marker date="1527512104582" expanded="true" signature="4059:4169" ph="SELECT COUNT... sharedsubscription" />
+            <marker date="1527512104582" expanded="true" signature="4336:4377" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="4336:4378" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="4437:4652" ph="SELECT s.sub... subscription" />
+            <marker date="1527512104582" expanded="true" signature="4494:4651" ph="SELECT ss.su... sharedsubscription" />
+            <marker date="1527512104582" expanded="true" signature="4608:4649" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="4608:4650" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="6116:6234" ph="INSERT INTO Subscription... " />
+            <marker date="1527512104582" expanded="true" signature="6116:6316" ph="INSERT INTO Subscription... " />
+            <marker date="1527512104582" expanded="true" signature="6237:6279" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="6874:6987" ph="UPDATE Subscription... " />
+            <marker date="1527512104582" expanded="true" signature="6944:6986" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="7540:7658" ph="UPDATE Subscription... " />
+            <marker date="1527512104582" expanded="true" signature="7615:7657" ph="SELECT t.ID token" />
+            <marker date="1527512104582" expanded="true" signature="8327:8514" ph="UPDATE Subscription... " />
+            <marker date="1527512104582" expanded="true" signature="8913:9045" ph="UPDATE Subscription... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/TokenDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="35" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1527508333633" expanded="true" signature="1006:1159" ph="INSERT INTO token... " />
+            <marker date="1527508333633" expanded="true" signature="1746:1798" ph="DELETE FROM " />
+            <marker date="1527508333633" expanded="true" signature="2278:2320" ph="SELECT t.ID token" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/h2database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/realisation/SubscriberDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <marker date="1527512281478" expanded="true" signature="1138:1392" ph="SELECT ID, N... subscriber" />
+            <marker date="1527512281478" expanded="true" signature="1192:1237" ph="SELECT t.TOK... token" />
+            <marker date="1527512281478" expanded="true" signature="1336:1391" ph="SELECT ID FR... user" />
+            <marker date="1527512281478" expanded="true" signature="2372:2453" ph="SELECT * FRO... SUBSCRIBER" />
+            <marker date="1527512281478" expanded="true" signature="2410:2452" ph="SELECT t.ID token" />
+            <marker date="1527512281478" expanded="true" signature="3252:3390" ph="INSERT INTO sharedsubscription... " />
+            <marker date="1527512281478" expanded="true" signature="3252:3456" ph="INSERT INTO sharedsubscription... " />
+            <marker date="1527512281478" expanded="true" signature="3343:3390" ph="SELECT s.ID,... subscription" />
+            <marker date="1527512281478" expanded="true" signature="3413:3455" ph="SELECT t.ID token" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tomvangrinsven/vodagone/dao/ISubscriberDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/ServicesDAOWithH2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testDB_create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="173" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithMockito/TokenDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/SubscriberDAOWithH2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="62" column="67" lean-forward="false" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/SubscriptionDAOWithH2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/daoWithH2/TokenDAOWithH2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

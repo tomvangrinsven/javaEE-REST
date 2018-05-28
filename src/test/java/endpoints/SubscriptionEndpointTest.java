@@ -1,16 +1,15 @@
 package endpoints;
 
-import authorization.Authorization;
-import dao.interfaces.ISubscriptionDAO;
-import domain.Subscription;
-import endpoint.SubscribersEndpoint;
-import endpoint.SubscriptionEndpoint;
+import nl.tomvangrinsven.vodagone.authorization.Authorization;
+import nl.tomvangrinsven.vodagone.dao.ISubscriptionDAO;
+import nl.tomvangrinsven.vodagone.domain.Subscription;
+import nl.tomvangrinsven.vodagone.endpoint.SubscriptionEndpoint;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import responses.ServiceResponse;
+import nl.tomvangrinsven.vodagone.responses.ServiceResponse;
 
 import javax.ws.rs.core.Response;
 

@@ -1,19 +1,16 @@
 package endpoints;
 
-import dao.TokenDAO;
-import dao.interfaces.ISubscriberDAO;
-import dao.interfaces.ITokenDAO;
-import domain.Subscriber;
-import domain.User;
-import endpoint.LoginEndpoint;
-import endpoint.SubscribersEndpoint;
+import nl.tomvangrinsven.vodagone.dao.ISubscriberDAO;
+import nl.tomvangrinsven.vodagone.domain.Subscriber;
+import nl.tomvangrinsven.vodagone.domain.User;
+import nl.tomvangrinsven.vodagone.endpoint.LoginEndpoint;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import responses.AuthorizedUser;
-import responses.UserLogin;
+import nl.tomvangrinsven.vodagone.responses.AuthorizedUser;
+import nl.tomvangrinsven.vodagone.responses.UserLogin;
 
 import javax.ws.rs.core.Response;
 

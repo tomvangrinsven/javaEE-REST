@@ -1,0 +1,4 @@
+endpoints\SubscriberEndpointTest.class
+endpoints\ServicesEndpointTest.class
+endpoints\LoginEndpointTest.class
+endpoints\SubscriptionEndpointTest.class

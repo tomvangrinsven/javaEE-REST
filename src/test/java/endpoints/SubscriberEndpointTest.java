@@ -1,22 +1,18 @@
 package endpoints;
 
-import authorization.Authorization;
-import dao.interfaces.ISubscriberDAO;
-import domain.Subscriber;
-import endpoint.SubscribersEndpoint;
-import org.junit.Before;
+import nl.tomvangrinsven.vodagone.authorization.Authorization;
+import nl.tomvangrinsven.vodagone.dao.ISubscriberDAO;
+import nl.tomvangrinsven.vodagone.endpoint.SubscribersEndpoint;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import responses.SubscriptionId;
+import nl.tomvangrinsven.vodagone.responses.SubscriptionId;
 
 import javax.ws.rs.core.Response;
 
 import static org.junit.Assert.assertEquals;
-import static org.mockito.ArgumentMatchers.anyInt;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
