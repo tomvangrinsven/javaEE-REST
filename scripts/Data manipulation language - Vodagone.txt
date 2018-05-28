@@ -1,0 +1,32 @@
+insert into SUBSCRIBER (name, email) values ('Tom van Grinsven', 'zegik@lekker.niet');
+insert into SUBSCRIBER (name, email) values ('Meron', 'Meron.Brouwer@han.nl');
+insert into SUBSCRIBER (name, email) values ('Dennis', 'Dennis.Breuker@han.nl');
+insert into SUBSCRIBER (name, email) values ('Michel', 'Michel.Portier@han.nl');
+insert into User values ('zegik@lekker.niet', 1, 'pwd');
+
+insert into PROVIDER values ('vodafone'),('ziggo');
+
+insert into SUBSCRIPTIONLENGTH values ('maand'),('jaar'),('half jaar');
+
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('Mobiele telefonie 100', 0, false, 'vodafone');
+insert into PRICES values (1, 'maand', 5.00),(1, 'half jaar', 25.00),(1, 'jaar', 45.00);
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('Mobiele telefonie 250', 0, true, 'vodafone');
+insert into PRICES values (2, 'maand', 10.00),(2, 'half jaar', 50.00),(2, 'jaar', 90.00);
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('Glasvezel-internet (download 500Mbps)', 0, true, 'vodafone');
+insert into PRICES values (3, 'maand', 40.00),(3, 'half jaar', 200.00),(3, 'jaar', 360.00);
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('Kabel-internet (download 300Mbps)', 0, false, 'ziggo');
+insert into PRICES values (4, 'maand', 30.00),(4, 'half jaar', 150.00),(4, 'jaar', 270.00);
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('Eredivisie Live 1,2,3,4 en 5', 2, false, 'ziggo');
+insert into PRICES values (5, 'maand', 10.00),(5, 'half jaar', 50.00),(5, 'jaar', 90.00);
+insert into SERVICE (NAME, SHAREABLE, DOUBLEABLE, PROVIDER) values ('HBO Plus', 2, false, 'ziggo');
+insert into PRICES values (6, 'maand', 15.00),(6, 'half jaar', 75.00),(6, 'jaar', 135.00);
+
+insert into SUBSCRIPTIONSTATUS values ('proef'),('actief'),('opgezegd');
+
+insert into SUBSCRIPTION (SUBSCRIBER, STATUS, SERVICE, LENGTH, STARTDATE, DOUBLED) values
+(1, 'actief', 1, 'maand', '2018-01-27', false),
+(1, 'actief', 2, 'maand', '2018-01-27', false),
+(1, 'actief', 4, 'maand', '2018-01-27', false),
+(2, 'actief', 5, 'maand', '2018-01-27', false);
+
+insert into SHAREDSUBSCRIPTION values (1, 4);

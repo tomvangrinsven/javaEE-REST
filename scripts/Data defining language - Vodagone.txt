@@ -1,0 +1,144 @@
+drop table if exists PROVIDER;
+
+drop table if exists SUBSCRIBER;
+
+drop table if exists SUBSCRIPTION;
+
+drop table if exists SUBSCRIPTIONLENGTH;
+
+drop table if exists SUBSCRIPTIONSTATUS;
+
+drop table if exists SERVICE;
+
+drop table if exists SHAREDSUBSCRIPTION;
+
+drop table if exists PRICES;
+
+drop table if exists TOKEN;
+
+drop table if exists USER;
+
+create table PROVIDER
+(
+   Name varchar(256) not null,
+   primary key (Name)
+)
+engine = InnoDB;
+
+create table SUBSCRIBER
+(
+   ID                   int not null auto_increment,
+   NAME                 varchar(256) not null,
+   EMAIL                varchar(256) not null,
+   primary key (ID),
+   key AK_KEY_2 (EMAIL)
+)
+engine = InnoDB;
+
+create table SUBSCRIPTION
+(
+   ID                   int not null auto_increment,
+   SUBSCRIBER		int not null,
+   STATUS               varchar(256) not null,
+   SERVICE               int not null,
+   LENGTH		varchar(255) not null,
+   STARTDATE           date not null,
+   ENDDATE            date,
+   DOUBLED           boolean not null,
+   primary key (ID)
+)
+engine = InnoDB;
+
+create table SUBSCRIPTIONLENGTH
+(
+   Length               varchar(255) not null,
+   primary key (Length)
+)
+engine = InnoDB;
+
+create table SUBSCRIPTIONSTATUS
+(
+   STATUS               varchar(256) not null,
+   primary key (STATUS)
+)
+engine = InnoDB;
+
+create table SERVICE
+(
+   NAME                 varchar(256) not null,
+   SHAREABLE             int not null,
+   DOUBLEABLE        boolean not null,
+   PROVIDER            varchar(256) not null,
+   ID                   int not null auto_increment,
+   primary key (ID)
+)
+engine = InnoDB;
+
+create table SHAREDSUBSCRIPTION
+(
+   SUBSCRIBERID            int not null,
+   SUBSCRIPTIONID         int not null,
+   primary key (SUBSCRIBERID, SUBSCRIPTIONID)
+)
+engine = InnoDB;
+
+create table PRICES
+(
+   SERVICE               int not null,
+   LENGTH               varchar(255) not null,
+   PRICE                double not null,
+   primary key (SERVICE, LENGTH)
+)
+engine = InnoDB;
+
+create table TOKEN
+(
+   TOKEN                varchar(19) not null,
+   ID                   int not null,
+   EXPIRES              datetime not null,
+   primary key (TOKEN),
+   unique key AK_Key_2 (ID)
+);
+
+create table USER
+(
+   USERNAME             varchar(256) not null,
+   ID                   int not null,
+   PASSWORD             varchar(256) not null,
+   primary key (USERNAME)
+)
+engine = InnoDB;
+
+alter table SUBSCRIPTION add constraint FK_subscriberinsubscription foreign key (SUBSCRIBER)
+      references SUBSCRIBER (ID) on delete restrict on update restrict;
+
+alter table SUBSCRIPTION add constraint FK_serviceinsubscription foreign key (SERVICE)
+      references SERVICE (ID) on delete restrict on update restrict;
+
+alter table SUBSCRIPTION add constraint FK_lengthofsubscription foreign key (LENGTH)
+      references SUBSCRIPTIONLENGTH (LENGTH) on delete restrict on update restrict;
+
+alter table SUBSCRIPTION add constraint FK_statusinsubscription foreign key (STATUS)
+      references SUBSCRIPTIONSTATUS (STATUS) on delete restrict on update restrict;
+
+alter table SERVICE add constraint FK_providerinservice foreign key (PROVIDER)
+      references PROVIDER (NAME) on delete restrict on update restrict;
+
+alter table SHAREDSUBSCRIPTION add constraint FK_subscription foreign key (SUBSCRIPTIONID)
+      references SUBSCRIPTION (ID) on delete restrict on update restrict;
+
+alter table SHAREDSUBSCRIPTION add constraint FK_user foreign key (SUBSCRIBERID)
+      references SUBSCRIBER (ID) on delete restrict on update restrict;
+
+alter table PRICES add constraint FK_priceforlength foreign key (LENGTH)
+      references SUBSCRIPTIONLENGTH (LENGTH) on delete restrict on update restrict;
+
+alter table PRICES add constraint FK_priceinservice foreign key (SERVICE)
+      references SERVICE (ID) on delete restrict on update restrict;
+
+alter table TOKEN add constraint FK_tokenofsubscriber foreign key (ID)
+      references SUBSCRIBER (ID) on delete restrict on update restrict;
+
+alter table USER add constraint FK_userinsubscriber foreign key (ID)
+      references SUBSCRIBER (ID) on delete restrict on update restrict;
+
