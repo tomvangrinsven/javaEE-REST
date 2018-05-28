@@ -1,14 +1,0 @@
-
-Asquid:S1166"%Either log or rethrow this exception.(Ö¨š•8òíó‘¹,
-‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(óôµ¼şÿÿÿÿ8¼ğÛ”¹,
-Asquid:S1166"%Either log or rethrow this exception.(»Œ¿é8òíó‘¹,
-Asquid:S1166"%Either log or rethrow this exception.(»Œ¿é8±ÌÅ”¹,
-[squid:S1161":Add the "@Override" annotation above this method signature(óôµ¼şÿÿÿÿ8¸¶æ”¹,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÑŸ—€úÿÿÿÿ8±ÌÅ”¹,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÑŸ—€úÿÿÿÿ8òíó‘¹,
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(³úí8ü½Î•¹,
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ñ·¤¬8ô²›•¹,
-?squid:S1148"#Use a logger to log this exception.(òçøì8¬›ä•¹,
-Asquid:S1166"%Either log or rethrow this exception.(»Œ¿é8òíó‘¹,

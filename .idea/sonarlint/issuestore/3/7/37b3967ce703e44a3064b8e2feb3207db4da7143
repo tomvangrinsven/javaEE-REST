@@ -1,7 +1,0 @@
-
-squid:S1845"dRename field "doubled" to prevent any misunderstanding/clash with field "DOUBLED" defined on line 5.(áŒÇ:8¼İÿ‘¹,
-Jsquid:S1068")Remove this unused "PRICE" private field.(×Ãüÿÿÿÿÿ8¼İÿ‘¹,
-Nsquid:S1068"-Remove this unused "CANCELLED" private field.(ôİ™…üÿÿÿÿ8¼İÿ‘¹,
-Msquid:S1068"1Remove this unused "NOT_AVAILABLE" private field.(¦ë‘Ó8¼İÿ‘¹,
-Lsquid:S1068"+Remove this unused "DOUBLED" private field.(İ—ªÅıÿÿÿÿ8¼İÿ‘¹,
-Hsquid:S1068",Remove this unused "STANDARD" private field.(Î–ã‡8¼İÿ‘¹,
